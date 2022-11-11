@@ -5,5 +5,28 @@
 }
 
 .BakeryItem {
-  
+    display: flex;
+    flex-direction: column;
+    /* width: 50%; */
+
+}
+
+img, button, h2 {
+    width: 50%
+}
+
+.bakeryContainers {
+    display: flex;
+    flex-direction: column;
+    padding-left: 6vw;
+}
+
+.cart {
+    padding-right: 6vw;
+}
+
+.content {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
 }
